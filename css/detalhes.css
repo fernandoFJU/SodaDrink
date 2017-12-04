@@ -1,0 +1,1015 @@
+@media screen and (max-width: 10000px) and (min-width: 1100px) { 
+
+  *{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+  }
+  hr{
+  	background: #64B5F6;
+  }
+  a{
+    text-decoration: none;
+  }
+
+  /****************Formatação do cabeçalho*************/
+  header{
+    width: 100%;
+    height: 155px;
+    background: #07539A;
+      position:relative;
+      top: 0px;
+  }
+  #divLogo{
+    width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+
+  }
+  #imgLogo{
+    width: 280px;
+    height: 100px;
+    margin-left: 39%;
+    float: left;
+  }
+  .ola{
+    float: left;
+    position: relative;
+    left: 200px;
+    top: 10px;
+    color: #fff;
+  }
+
+  /*parte de baixo do menu*/
+  .baixo{
+    width: 100%;
+    background: #07539A;
+    height: 55px;
+  }
+  #menuFixo{
+    width: 1900px;
+    margin: 0 auto;
+    height: 51px;
+    background: #07539A;
+  }
+  #logoMenor{
+    height: 50px;
+    width: 11%;
+
+    float: left;
+  }
+  #loginho{
+    height: 50px;
+    width: 150px;
+    margin-left: 8px;
+    display: none;
+  }
+
+  /*menu horizontal*/
+
+  #divMenu{
+    height: 50px;
+    width: 70%;
+
+    float: left;
+  }
+  #menu{
+    height: 50px;
+    width: 800px;
+    margin-left: 25%;
+  }
+  .itemMenu{
+    width: 200px;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    height: 35px;
+    padding-top: 15px;
+  }
+  .itemMenu:hover{
+    border-bottom: 5px solid #FF5722;
+  }
+  .itemMenu a{
+    color: #fff;
+  }
+
+  /**/
+  #informacoes{
+    height: 50px;
+    width: 19%;
+
+    float: left;
+  }
+  .icons{
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  .cadastro{
+    cursor: pointer;
+  }
+  .offCanvas{
+    margin-left: 50px;
+  }
+  /*menu offCanvas*/
+  .offCanvas:hover{
+    cursor: pointer;
+  }
+  .menuOffCanvas{
+    height: 100%;
+    position: fixed;
+    background-color: #222;
+    opacity: 0.90;
+    float: right;
+    z-index: 1000;
+    width: 310px;
+    right: -310px;
+    overflow: hidden;
+    transition: all 1s;
+  }
+  .menuOffCanvas a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+  text-align: center;
+  }
+  .itemMenuCanvas{
+    width: 100%;
+    padding-left: 5px;
+    height: 45px;
+    border-bottom: 1px solid #a9a9a9;
+    padding-top: 15px;
+    transition: all 0.4s;
+  }
+  .itemMenuCanvas:hover{
+    background-color: #a9a9a9;
+    color: #000;
+    opacity: 0.50;
+
+  }
+
+  .voltar{
+    margin-top: 50px;
+    background: #111;
+    border-left: 5px solid #a9a9a9;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .background{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1000;
+    background-color: #000;
+    opacity: 0.60;
+    display: none;
+    transition: all 1s;
+  }
+  /*modal*/
+  .modalConteiner{
+  	width: 100%;
+  	height: 100%;
+  	position: fixed;
+  	z-index: 10;
+  	background: rgba(0, 0, 0, 0.7);
+  	top: 0;
+  	left: 0;
+  }
+  .caixaModal{
+  	width: 500px;
+  	height: 400px;
+  	background: #fff;
+  	border-radius: 10px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 200px;
+  }
+  .modalHeader{
+  	width: 480px;
+  	height: 50px;
+  	border-bottom: 1px solid #ddd;
+  	padding-left: 20px;
+  	padding-top: 10px;
+  	background: #0D47A1;
+  	border-radius: 10px 10px 0 0 ;
+  }
+  .modalHeader p{
+  	font-size: 30px;
+  	font-weight: bold;
+  	color: #fff;
+  	float: left;
+  }
+  #fechar{
+  	float: left;
+  	position: relative;
+  	border: 1px solid #ddd;
+  	border-radius: 15px;
+  	height: 50px;
+  	width: 50px;
+  	transition: 0.4s;
+  	left:  120px;
+  	bottom: 5px;
+  }
+  #fechar:hover{
+  	opacity:0.40;
+  	-moz-opacity: 0.40;
+  	filter: alpha(opacity=40);
+  	transition: 0.4s;
+  	cursor: pointer;
+  }
+
+  .modalContent{
+  	height: auto;
+  	width: auto;
+  	padding: 10px;
+  }
+  .frmLogin{
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  #rdoFis{
+    margin-left: 90px;
+  }
+  #rdoFis, #rdoJur{
+    height: 20px;
+    width: 20px;
+  }
+  #rdoJur{
+    margin-left: 20px;
+  }
+  .tpCliente{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF5722;
+  }
+  .txtDoLogin{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF5722;
+    margin-left: 70px;
+    padding-top: 10px;
+  }
+  .usu{
+    margin-top: 5px;
+  }
+  .inputLoginModal{
+    width: 250px;
+    height: 35px;
+    outline: none;
+    font-size: 18px;
+    margin-left: 70px;
+    font-weight: bold;
+    border: 1px solid #aaa;
+    transition: all 0.2s;
+    border-radius: 5px;
+  }
+  .inputLoginModal:hover{
+    border: 1px solid #ccc;
+  }
+  .btnEntrar{
+    margin-left: 70px;
+    width: 250px;
+    height: 40px;
+    background: #00695C;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    border:0;
+    box-shadow: 2px 2px 6px #000;
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  #txtOu{
+    font-size: 18px;
+    margin-left: 180px;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  #txtCadastarModal{
+    font-size: 18px;
+    margin-left: 140px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  #txtCadastarModal a{
+    color: #0D47A1;
+    text-decoration: underline;
+  }
+  /**************Formatação do conteúdo****************/
+  #conteudo1{
+    width: 1400px;
+
+    height: 800px;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    padding-top: 50px;
+  }
+  .imgProd{
+    width: 500px;
+    height: 400px;
+    margin-left: 50px;
+    float: left;
+  }
+  #imgProd{
+    width: 500px;
+    height: 400px;
+  }
+  .informacoesProd{
+    width: 700px;
+    height: 415px;
+    float: left;
+    margin-left: 50px;
+
+  }
+  .nome{
+    width: 700px;
+    height: 80px;
+
+  }
+  #nomeProd{
+    color: #616161;
+    font-size: 30px;
+  }
+  #txtOutros{
+    color: #aaa;
+    font-size: 15px;
+    margin-top: 5px;
+    font-size: 20px;
+  }
+  #txtOutros a{
+    color: #616161;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  #txtCodigo{
+    color: #aaa;
+    font-size: 15px;
+    margin-top: 5px;
+    font-size: 20px;
+  }
+  .caracteristicas{
+    width: 680px;
+    height: 300px;
+    margin-top: 10px;
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  .comum{
+    font-size: 18px;
+    color: #bbb;
+    margin-bottom: 10px;
+  }
+  .n{
+    color: #616161;
+    font-weight: bold;
+  }
+  .contemDet{
+    font-size: 22px;
+    color: #616161;
+  }
+  .dois{
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  /****************Formatação do rodapé**********************/
+  #rodape{
+    height: auto;
+    width: 100%;
+    background:#0D47A1;
+    margin-top: -20px;
+  }
+  /*parte de cima do rodape*/
+  #rodapeCima{
+    width: 100%;
+    height: 370px;
+    padding-top: 10px;
+  }
+  #siga{
+    width: auto;
+    height: 200px;
+    text-align: center;
+  }
+
+  #siga a{
+    color: #fff;
+  }
+
+  #txtSiga{
+    color: #fff;
+    font-size: 22px;
+    margin-top: 20px;
+  }
+  .redes{
+    width: auto;
+    height: 90px;
+    margin-top: 10px;
+    margin-left: 760px;
+  }
+  .rede{
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 10px;
+
+  }
+  .rede:hover{
+    opacity: 0.90;
+    cursor: pointer;
+  }
+  #baixar{
+    width: auto;
+    height: 180px;
+    text-align: center;
+  }
+  #txtBaixe{
+    color: #fff;
+    font-size: 22px;
+  }
+  #gplay{
+    width: 230px;
+    height: 70px;
+    margin-top: 10px;
+    background: #000;
+    border-radius: 10px;
+  }
+  #gplay:hover{
+    cursor: pointer;
+  }
+
+
+  /*parte de baixo do rodape*/
+  #rodapeBaixo{
+    width: 100%;
+    height: 170px;
+    border-top: 1px solid #ccc;
+  }
+  #hrfooter{
+    display: none;
+  }
+  #pagamento{
+    width: auto;
+    height: 95px;
+    clear: both;
+    padding-left: 0;
+    text-align: center;
+    margin-left: 680px;
+  }
+  .frmPagamento{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  #copy{
+    width: auto;
+    height: 50px;
+    text-align: center;
+  }
+  #txtCopy{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 400px) {
+
+  *{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+  }
+  hr{
+  	background: #64B5F6;
+  }
+  a{
+    text-decoration: none;
+  }
+
+  /****************Formatação do cabeçalho*************/
+  header{
+    width: 100%;
+    height: 155px;
+    background: #07539A;
+      position:relative;
+      top: 0px;
+  }
+  #divLogo{
+    width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+
+  }
+  #imgLogo{
+    width: 280px;
+    height: 100px;
+    margin-left: 39%;
+    float: left;
+  }
+  .ola{
+    float: left;
+    position: relative;
+    left: 200px;
+    top: 10px;
+    color: #fff;
+  }
+
+  /*parte de baixo do menu*/
+  .baixo{
+    width: 100%;
+    background: #07539A;
+    height: 55px;
+  }
+  #menuFixo{
+    width: 1900px;
+    margin: 0 auto;
+    height: 51px;
+    background: #07539A;
+  }
+  #logoMenor{
+    height: 50px;
+    width: 11%;
+
+    float: left;
+  }
+  #loginho{
+    height: 50px;
+    width: 150px;
+    margin-left: 8px;
+    display: none;
+  }
+
+  /*menu horizontal*/
+
+  #divMenu{
+    height: 50px;
+    width: 70%;
+
+    float: left;
+  }
+  #menu{
+    height: 50px;
+    width: 800px;
+    margin-left: 25%;
+  }
+  .itemMenu{
+    width: 200px;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    height: 35px;
+    padding-top: 15px;
+  }
+  .itemMenu:hover{
+    border-bottom: 5px solid #FF5722;
+  }
+  .itemMenu a{
+    color: #fff;
+  }
+
+  /**/
+  #informacoes{
+    height: 50px;
+    width: 19%;
+
+    float: left;
+  }
+  .icons{
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  .cadastro{
+    cursor: pointer;
+  }
+  .offCanvas{
+    margin-left: 50px;
+  }
+  /*menu offCanvas*/
+  .offCanvas:hover{
+    cursor: pointer;
+  }
+  .menuOffCanvas{
+    height: 100%;
+    position: fixed;
+    background-color: #222;
+    opacity: 0.90;
+    float: right;
+    z-index: 1000;
+    width: 310px;
+    right: -310px;
+    overflow: hidden;
+    transition: all 1s;
+  }
+  .menuOffCanvas a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+  text-align: center;
+  }
+  .itemMenuCanvas{
+    width: 100%;
+    padding-left: 5px;
+    height: 45px;
+    border-bottom: 1px solid #a9a9a9;
+    padding-top: 15px;
+    transition: all 0.4s;
+  }
+  .itemMenuCanvas:hover{
+    background-color: #a9a9a9;
+    color: #000;
+    opacity: 0.50;
+
+  }
+
+  .voltar{
+    margin-top: 50px;
+    background: #111;
+    border-left: 5px solid #a9a9a9;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .background{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1000;
+    background-color: #000;
+    opacity: 0.60;
+    display: none;
+    transition: all 1s;
+  }
+  /*modal*/
+  .modalConteiner{
+  	width: 100%;
+  	height: 100%;
+  	position: fixed;
+  	z-index: 10;
+  	background: rgba(0, 0, 0, 0.7);
+  	top: 0;
+  	left: 0;
+  }
+  .caixaModal{
+  	width: 500px;
+  	height: 400px;
+  	background: #fff;
+  	border-radius: 10px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 200px;
+  }
+  .modalHeader{
+  	width: 480px;
+  	height: 50px;
+  	border-bottom: 1px solid #ddd;
+  	padding-left: 20px;
+  	padding-top: 10px;
+  	background: #0D47A1;
+  	border-radius: 10px 10px 0 0 ;
+  }
+  .modalHeader p{
+  	font-size: 30px;
+  	font-weight: bold;
+  	color: #fff;
+  	float: left;
+  }
+  #fechar{
+  	float: left;
+  	position: relative;
+  	border: 1px solid #ddd;
+  	border-radius: 15px;
+  	height: 50px;
+  	width: 50px;
+  	transition: 0.4s;
+  	left:  120px;
+  	bottom: 5px;
+  }
+  #fechar:hover{
+  	opacity:0.40;
+  	-moz-opacity: 0.40;
+  	filter: alpha(opacity=40);
+  	transition: 0.4s;
+  	cursor: pointer;
+  }
+
+  .modalContent{
+  	height: auto;
+  	width: auto;
+  	padding: 10px;
+  }
+  .frmLogin{
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  #rdoFis{
+    margin-left: 90px;
+  }
+  #rdoFis, #rdoJur{
+    height: 20px;
+    width: 20px;
+  }
+  #rdoJur{
+    margin-left: 20px;
+  }
+  .tpCliente{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF5722;
+  }
+  .txtDoLogin{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF5722;
+    margin-left: 70px;
+    padding-top: 10px;
+  }
+  .usu{
+    margin-top: 5px;
+  }
+  .inputLoginModal{
+    width: 250px;
+    height: 35px;
+    outline: none;
+    font-size: 18px;
+    margin-left: 70px;
+    font-weight: bold;
+    border: 1px solid #aaa;
+    transition: all 0.2s;
+    border-radius: 5px;
+  }
+  .inputLoginModal:hover{
+    border: 1px solid #ccc;
+  }
+  .btnEntrar{
+    margin-left: 70px;
+    width: 250px;
+    height: 40px;
+    background: #00695C;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    border:0;
+    box-shadow: 2px 2px 6px #000;
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  #txtOu{
+    font-size: 18px;
+    margin-left: 180px;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  #txtCadastarModal{
+    font-size: 18px;
+    margin-left: 140px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  #txtCadastarModal a{
+    color: #0D47A1;
+    text-decoration: underline;
+  }
+  /**************Formatação do conteúdo****************/
+  #conteudo1{
+    width: auto;
+
+    height: 1600px;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    padding-top: 50px;
+  }
+  .imgProd{
+    width: 600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #imgProd{
+    width: 600px;
+    height: 600px;
+  }
+  .informacoesProd{
+    width: 880px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+  .nome{
+    width: 880px;
+    height: 180px;
+  }
+  #nomeProd{
+    color: #616161;
+    font-size: 60px;
+  }
+  #txtOutros{
+    color: #aaa;
+    font-size: 30px;
+    margin-top: 5px;
+  }
+  #txtOutros a{
+    color: #616161;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  #txtCodigo{
+    color: #aaa;
+    font-size: 30px;
+    margin-top: 5px;
+  }
+  .caracteristicas{
+    width: 880px;
+    height: 500px;
+    margin-top: 10px;
+    padding-top: 20px;
+  }
+
+  .comum{
+    font-size: 35px;
+    color: #bbb;
+    margin-bottom: 10px;
+  }
+  .n{
+    color: #616161;
+    font-weight: bold;
+  }
+  .contemDet{
+    font-size: 35px;
+    color: #616161;
+  }
+  .dois{
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  /****************Formatação do rodapé**********************/
+  #rodape{
+    height: auto;
+    width: 100%;
+    background:#0D47A1;
+    margin-top: -20px;
+  }
+  /*parte de cima do rodape*/
+  #rodapeCima{
+    width: 100%;
+    height: 380px;
+  }
+  #siga{
+    width: 400px;
+    height: 200px;
+    margin-left: 300px;
+    margin-top: 10px
+  }
+
+  #siga a{
+    color: #fff;
+  }
+
+  #txtSiga{
+    color: #fff;
+    font-size: 30px;
+    margin-left: 70px;
+    margin-top: 20px;
+  }
+  .rede{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  .face{
+    margin-left: 30px;
+  }
+  .rede:hover{
+    opacity: 0.90;
+    cursor: pointer;
+  }
+  #baixar{
+    width: 400px;
+    height: 180px;
+    margin-left: 300px;
+  }
+  #txtBaixe{
+    color: #fff;
+    font-size: 35px;
+    margin-left: 70px;
+  }
+  #gplay{
+    width: 230px;
+    height: 60px;
+    margin-top: 10px;
+    background: #000;
+    border-radius: 10px;
+    margin-left: 80px;
+  }
+  #gplay:hover{
+    cursor: pointer;
+  }
+
+
+  /*parte de baixo do rodape*/
+  #rodapeBaixo{
+    width: 100%;
+    height: 180px;
+    border-top: 1px solid #ccc;
+  }
+  #hrfooter{
+    display: none;
+  }
+  #pagamento{
+    width: 500px;
+    margin-left: 280px;
+    height: 95px;
+    clear: both;
+    padding-left: 0;
+  }
+  .frmPagamento{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  #copy{
+    height: 50px;
+  }
+  #txtCopy{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .DivNewsLetter{
+    width: 100%;
+    height: 300px;
+    background-color: #ddd;
+  }
+
+  .RecebaNossasNovidades{
+    width: 100%;
+    font-size: 38px;
+    height: 80px;
+    text-align: center;
+    color: #f9bd00;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  .FormularioNewsLetter{
+    height: 120px;
+    width: auto;
+    margin-left: 250px;
+    margin-top: 20px;
+  }
+  .input{
+    width: 500px;
+    height: 50px;
+    border: 1px solid #ccc;
+    font-size: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  #btnOk{
+    height: 50px;
+    width: 200px;
+    margin-left: 150px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #a61722;
+    font-size: 30px;
+    background-color: #f9bd00;
+    cursor: pointer;
+    -webkit-animation: hue 60s infinite linear;
+  }
+
+  .textonewsletter{
+    color: #f9bd00;
+    font-size: 30px;
+  }
+}

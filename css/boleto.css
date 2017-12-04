@@ -1,0 +1,173 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: arial;
+  text-decoration: none;
+}
+.conteiner{
+  width: 700px;
+  height: 472px;
+  margin: 50px auto;
+
+}
+.cima{
+  width: 701.5px;
+  height: 40px;
+  border-bottom: 2px solid;
+}
+.imagem{
+	width: 150px;
+  float: left;
+  height: 40px;
+  border-right: 1px solid;
+}
+#imgBanco{
+  width: 150px;
+  height: 40px;
+}
+.cod{
+	width: 100px;
+  float: left;
+  height: 35px;
+  border-right: 1px solid;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 5px;
+}
+.numeracao{
+	width: 445px;
+  float: left;
+  height: 18px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: right;
+  padding-top: 22px;
+}
+/*esquerda*/
+.esquerda{
+  width: 500px;
+  height: 250px;
+  float: left;
+}
+.linhas{
+  width: 500px;
+  height: 30px;
+  border-bottom: 1px solid;
+  border-left: 1px solid;
+}
+.titulo{
+  font-size: 10px;
+  color: #0D47A1;
+  font-weight: bold;
+  margin-left: 5px;
+  padding-top: 3px;
+}
+.texto{
+  font-size: 12px;
+
+  margin-left: 5px;
+  padding-top: 3px;
+}
+.dir{
+  text-align: right;
+  padding-right: 10px;
+}
+.data{
+	width: 110px;
+  float: left;
+  height: 30px;
+  border-right: 1px solid;
+}
+.numero{
+	width: 115px;
+  height: 30px;
+  float: left;
+  border-right: 1px solid;
+}
+.especie{
+	width: 80px;
+  height: 30px;
+  float: left;
+  border-right: 1px solid;
+}
+.aceite{
+	width: 70px;
+  height: 30px;
+  float: left;
+  border-right: 1px solid;
+}
+.processa{
+	width: 120px;
+  height: 30px;
+  float: left;
+}
+
+.uso{
+	width: 110px;
+  float: left;
+  height: 30px;
+  border-right: 1px solid;
+}
+.carteira{
+	width: 95px;
+  height: 30px;
+  float: left;
+  border-right: 1px solid;
+}
+.esp{
+	width: 70px;
+  height: 30px;
+  float: left;
+  border-right: 1px solid;
+}
+.quantidade{
+	width: 100px;
+  height: 30px;
+  float: left;
+  border-right: 1px solid;
+}
+.valorX{
+	width: 120px;
+  height: 30px;
+  float: left;
+}
+.instrucoes{
+	width: 500px;
+  height: 153.5px;
+}
+
+/*direita*/
+.direita{
+  width: 200px;
+  height: auto;
+
+  float: left;
+}
+.linhasDireita{
+  width: 200px;
+  height: 30px;
+  border-bottom: 1px solid;
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+/*baixo*/
+.sacado{
+  width: 700px;
+  height: 70px;
+  border-bottom: 1px solid;
+  border-right: 1px solid;
+  border-left: 1px solid;
+  float: left;
+}
+.codBarra{
+  width: 700px;
+  height: 70px;
+  float: left;
+}
+#imgBarra{
+  width: 480px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 5px;
+}

@@ -1,0 +1,1163 @@
+@media screen and (max-width: 10000px) and (min-width: 1100px) {
+  *{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    outline: none;
+  }
+  hr{
+    background: #64B5F6;
+  }
+  a{
+    text-decoration: none;
+  }
+
+  /****************Formatação do cabeçalho*************/
+  header{
+      width: 100%;
+      height: 155px;
+      background: #0D47A1;
+      position: relative;
+      top: 0;
+  }
+  .iconeMenu{
+    display: none;
+  }
+  #divLogo{
+    width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+    float: left;
+    margin-left: 350px;
+  }
+  #imgLogo{
+    width: 300px;
+    height: 130px;
+    margin-left: -35px;
+    margin-top:10px;
+    float: left;
+  }
+  .ola{
+    float: left;
+    position: relative;
+    left: 200px;
+    top: 10px;
+    color: #fff;
+  }
+  .divlogin{
+    width: 195px;
+    height: 45px;
+    margin-left: 699px;
+    bottom: 60px;
+    float: left;
+      position: relative;
+  }
+  .DivIconUsuario{
+    width: 35px;
+    height: 44px;
+    margin-top: 12px;
+    float: left;
+  }
+  .IconUsuario{
+    width: 20px;
+    height: 20px;
+  }
+
+  .textoEntrar:hover, .IconUsuario:hover{
+    cursor: pointer;
+
+  }
+
+  .DivEntrarCadastrar{
+    width: 164px;
+    height: 44px;
+    float: left;
+    margin-left: -5px;
+    margin-top: 13px;
+  }
+
+  .textoEntrar{
+    font-weight: 800;
+    font-size: 13px;
+    color: #f9bd00;
+  }
+
+  .DivCarrinhoCompras{
+    width:50px;
+    height: 45px;
+      position: relative;
+      bottom: 60px;
+    border-left: 1px solid #01579B;
+    float: left;
+    display: none;
+  }
+
+  .iconCarrinho{
+    width: 30px;
+    height: 30px;
+    margin-top: 6.7777px;
+    margin-left: 10px;
+
+  }
+
+  .ParteDeCimaDoCabecalho{
+    width: 1765px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+      margin-bottom: 20px;
+  }
+
+  .DivDireitaCabecalho{
+    width: 975px;
+    height: 50px;
+    float: left;
+    margin-left: 600px;
+  }
+
+  .ParteDeBaixoCabecalho{
+    width: 1065px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+  }
+
+  /*parte de baixo do menu*/
+  .baixo{
+    width: 100%;
+    background: #c11a26;
+    height: 55px;
+  }
+
+  /*menu horizontal*/
+
+  .DivMenu{
+    width:100%;
+    height:30px;
+    margin-left: 150px;
+  }
+
+  .ItemMenu{
+    width: 175px;
+    height: 35px;
+    float: left;
+    margin-top: -35px;
+      position: relative;
+    padding-left:0px;
+    text-align: center;
+    border: 1px solid #0D47A1;
+    border-left: 1px solid #0D47A1;
+  }
+  .TextoMenuDecoracao:hover{
+    text-decoration: underline;
+    opacity: 1s;
+    transition: 5s;
+  }
+  .PrimeiroItem{
+    margin-left: 75px;
+    border-left: 1px solid #0D47A1;
+  }
+
+  .TextoMenuDecoracao{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+
+  /**/
+  #informacoes{
+    height: 50px;
+    width: 19%;
+
+    float: left;
+  }
+  .icons{
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  .cadastro{
+    cursor: pointer;
+  }
+  .offCanvas{
+    margin-left: 50px;
+  }
+  /*menu offCanvas*/
+  .offCanvas:hover{
+    cursor: pointer;
+  }
+  .menuOffCanvas{
+    height: 100%;
+    position: fixed;
+    background-color: #222;
+    opacity: 0.90;
+    float: right;
+    z-index: 1000;
+    width: 310px;
+    right: -310px;
+    overflow: hidden;
+    transition: all 1s;
+  }
+  .menuOffCanvas a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+  }
+  .itemMenuCanvas{
+    width: 100%;
+    padding-left: 5px;
+    height: 45px;
+    border-bottom: 1px solid #0D47A1;
+    padding-top: 15px;
+    transition: all 0.4s;
+  }
+  .itemMenuCanvas:hover{
+    background-color: #a9a9a9;
+    color: #000;
+    opacity: 0.50;
+
+  }
+
+  .voltar{
+    margin-top: 50px;
+    background: #111;
+    border-left: 5px solid #a9a9a9;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .background{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1000;
+    background-color: #000;
+    opacity: 0.60;
+    display: none;
+    transition: all 1s;
+  }
+  /*modal*/
+  .modalConteiner{
+  	width: 100%;
+  	height: 100%;
+  	position: fixed;
+  	z-index: 10;
+  	background: rgba(0, 0, 0, 0.7);
+  	top: 0;
+  	left: 0;
+  }
+  .caixaModal{
+  	width: 500px;
+  	height: 400px;
+  	background: #fff;
+  	border-radius: 10px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 200px;
+  }
+  .modalHeader{
+  	width: 480px;
+  	height: 50px;
+  	border-bottom: 1px solid #ddd;
+  	padding-left: 20px;
+  	padding-top: 10px;
+  	background: #0D47A1;
+  	border-radius: 10px 10px 0 0 ;
+  }
+  .modalHeader p{
+  	font-size: 30px;
+  	font-weight: bold;
+  	color: #fff;
+  	float: left;
+  }
+  #fechar{
+  	float: left;
+  	position: relative;
+  	border: 1px solid #ddd;
+  	border-radius: 15px;
+  	height: 50px;
+  	width: 50px;
+  	transition: 0.4s;
+  	left:  120px;
+  	bottom: 5px;
+  }
+  #fechar:hover{
+  	opacity:0.40;
+  	-moz-opacity: 0.40;
+  	filter: alpha(opacity=40);
+  	transition: 0.4s;
+  	cursor: pointer;
+  }
+
+  .modalContent{
+  	height: auto;
+  	width: auto;
+  	padding: 10px;
+  }
+  .frmLogin{
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  #rdoFis{
+    margin-left: 90px;
+  }
+  #rdoFis, #rdoJur{
+    height: 20px;
+    width: 20px;
+  }
+  #rdoJur{
+    margin-left: 20px;
+  }
+  .tpCliente{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF5722;
+  }
+  .txtDoLogin{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF5722;
+    margin-left: 70px;
+    padding-top: 10px;
+  }
+  .usu{
+    margin-top: 5px;
+  }
+  .inputLoginModal{
+    width: 250px;
+    height: 35px;
+    outline: none;
+    font-size: 18px;
+    margin-left: 70px;
+    font-weight: bold;
+    border: 1px solid #aaa;
+    transition: all 0.2s;
+    border-radius: 5px;
+  }
+  .inputLoginModal:hover{
+    border: 1px solid #ccc;
+  }
+  .btnEntrar{
+    margin-left: 70px;
+    width: 250px;
+    height: 40px;
+    background: #00695C;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    border:0;
+    box-shadow: 2px 2px 6px #000;
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  #txtOu{
+    font-size: 18px;
+    margin-left: 180px;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  #txtCadastarModal{
+    font-size: 18px;
+    margin-left: 140px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  #txtCadastarModal a{
+    color: #0D47A1;
+    text-decoration: underline;
+  }
+  /**************Formatação do conteúdo****************/
+  #conteudo{
+    width: 1400px;
+    height: 800px;;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+  }
+
+  #titulo{
+    width: 100%;
+    height: 80px;
+    padding-top: 30px;
+  }
+  #txtSobre{
+    font-size: 40px;
+    color: #0D47A1;
+    margin-left: 20px;
+  }
+  #cima{
+    height: 450px;
+    width: auto;
+  }
+  #baixo{
+    border: 1px solid;
+    height: 220px;
+    width: 1290px;
+    margin: 0 auto;
+  }
+
+  .titlepartedebaixo{
+    border: 1px solid #000;
+    margin: 0 0;
+  }
+  .esquerdo{
+    float: left;
+    width: 550px;
+    height: 350px;
+    margin-left: 55px;
+    margin-top: 55px;
+    clear: both;
+  }
+  .imagem{
+    width: 550px;
+    height: 350px;
+  }
+
+  .direito{
+    float: left;
+    height: 420px;
+    width: 550px;
+    margin-left: 100px;
+    margin-top: 55px;
+
+    padding-top: 30px;
+
+  }
+  .title{
+    color: #0288D1;
+    font-size: 25px;
+  }
+  .visao{
+    margin-top: 10px;
+  }
+  .DivMaisSobreNos{
+    width: 1200px;
+    margin-left: 30px;
+    height: auto;
+    text-align: justify;
+  }
+  .DivTituloMaisSobreNos{
+    color: #0288D1;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .ConteudoMaisSobreNos{
+    font-size: 22px;
+    color: #888;
+  }
+  .paragrafo{
+    color: #888;
+    font-size: 22px;
+  }
+  #fraseEfeito{
+    font-size: 25px;
+    color: #07539a;
+    margin-left: 160px;
+    margin-top: 50px;
+  }
+  /****************Formatação do rodapé**********************/
+  #rodape{
+    height: auto;
+    width: 100%;
+    background:#0D47A1;
+    margin-top: -20px;
+  }
+  /*parte de cima do rodape*/
+  #rodapeCima{
+    width: 100%;
+    height: 370px;
+    padding-top: 10px
+  }
+  #siga{
+    width: auto;
+    height: 200px;
+    text-align: center;
+  }
+
+  #siga a{
+    color: #fff;
+  }
+
+  #txtSiga{
+    color: #fff;
+    font-size: 22px;
+    margin-top: 20px;
+  }
+  .redes{
+    width: auto;
+    height: 90px;
+    margin-top: 10px;
+
+  }
+  .rede{
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 10px;
+
+  }
+  .rede:hover{
+    opacity: 0.90;
+    cursor: pointer;
+  }
+  #baixar{
+    width: auto;
+    height: 180px;
+    text-align: center;
+  }
+  #txtBaixe{
+    color: #fff;
+    font-size: 22px;
+  }
+  #gplay{
+    width: 230px;
+    height: 70px;
+    margin-top: 10px;
+    background: #000;
+    border-radius: 10px;
+  }
+  #gplay:hover{
+    cursor: pointer;
+  }
+
+
+  /*parte de baixo do rodape*/
+  #rodapeBaixo{
+    width: 100%;
+    height: 170px;
+    border-top: 1px solid #ccc;
+  }
+  #hrfooter{
+    display: none;
+  }
+  #pagamento{
+    width: auto;
+    height: 95px;
+    clear: both;
+    padding-left: 0;
+    text-align: center;
+  }
+  .frmPagamento{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  #copy{
+    width: auto;
+    height: 50px;
+    text-align: center;
+  }
+  #txtCopy{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .DivNewsLetter{
+    width: 100%;
+    height: 250px;
+    background-color: #0277BD;
+    margin-top: 100px;
+    padding-top: 50px;
+  }
+
+  .RecebaNossasNovidades{
+    width: 100%;
+    font-size: 22px;
+    height: 40px;
+    text-align: center;
+    color: #f9bd00;
+    font-weight: bold;
+  }
+
+  .FormularioNewsLetter{
+    height: 120px;
+    width: auto;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .input{
+    width: 300px;
+    height: 35px;
+    border: 1px solid #ccc;
+    font-size: 22px;
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #btnOk{
+    height: 35px;
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    position: relative;
+    right: 20px;
+    color: #a61722;
+    font-size: 22px;
+    background-color: #f9bd00;
+    cursor: pointer;
+    -webkit-animation: hue 60s infinite linear;
+  }
+
+  .textonewsletter{
+    color: #f9bd00;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 400px) {
+  *{
+    padding: 0px;
+    margin: 0;
+    font-family: sans-serif;
+    outline: none;
+  }
+  hr{
+    background: #64B5F6;
+  }
+  a{
+    text-decoration: none;
+  }
+  /****************Formatação do cabeçalho*************/
+  header{
+
+
+  }
+  #header{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: 0px;
+  }
+  .ParteDeCimaDoCabecalho{
+    width: 100%;
+    height: 200px;
+    background: #0D47A1;
+  }
+  .ParteDeBaixoCabecalho{
+    display: none;
+  }
+  .DivDireitaCabecalho{
+    display: none;
+  }
+  .iconeMenu{
+    width: 200px;
+    height: 200px;
+    float: left;
+  }
+  #imagemLogo{
+    width: 200px;
+    height: 200px;
+  }
+
+  #divLogo{
+    width: 500px;
+    margin-left: 120px;
+    height: 200px;
+    float: left;
+  }
+  #imgLogo{
+    width: 500px;
+    height: 200px;
+    margin-top: -10px;
+  }
+  .ola{
+    float: left;
+    position: relative;
+    left: 200px;
+    top: 10px;
+    color: #fff;
+    display: none;
+  }
+
+  /*parte de baixo do menu*/
+  .baixo{
+    width: 100%;
+    background: #000;
+    height: 55px;
+  }
+
+  /*menu horizontal*/
+
+  .DivMenu{
+    width:500px;
+    background: #f00ff0;
+    height:40px;
+    color: #000;
+  }
+
+  .ItemMenu{
+    width: 100px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    border: 1px solid;
+    font-size: 14px;
+  }
+  .TextoMenuDecoracao:hover{
+    text-decoration: underline;
+    opacity: 1s;
+    transition: 5s;
+
+  }
+  .PrimeiroItem{
+    border-left: 1px solid #0D47A1;
+  }
+
+  .TextoMenuDecoracao{
+    margin-left: 15px;
+    color: #ffffff;
+  }
+
+  /**/
+  #informacoes{
+    height: 50px;
+    width: 19%;
+
+    float: left;
+  }
+  .icons{
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  .cadastro{
+    cursor: pointer;
+  }
+  .offCanvas{
+    margin-left: 50px;
+  }
+  /*menu offCanvas*/
+  .offCanvas:hover{
+    cursor: pointer;
+  }
+  .menuOffCanvas{
+    height: 100%;
+    position: fixed;
+    background-color: #222;
+    opacity: 0.90;
+    float: right;
+    z-index: 1000;
+    width: 310px;
+    right: -310px;
+    overflow: hidden;
+    transition: all 1s;
+  }
+  .menuOffCanvas a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+  }
+  .itemMenuCanvas{
+    width: 100%;
+    padding-left: 5px;
+    height: 45px;
+    border-bottom: 1px solid #0D47A1;
+    padding-top: 15px;
+    transition: all 0.4s;
+  }
+  .itemMenuCanvas:hover{
+    background-color: #a9a9a9;
+    color: #000;
+    opacity: 0.50;
+
+  }
+
+  .voltar{
+    margin-top: 50px;
+    background: #111;
+    border-left: 5px solid #a9a9a9;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .background{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1000;
+    background-color: #000;
+    opacity: 0.60;
+    display: none;
+    transition: all 1s;
+  }
+  /*modal*/
+  .modalConteiner{
+  	width: 100%;
+  	height: 100%;
+  	position: fixed;
+  	z-index: 10;
+  	background: rgba(0, 0, 0, 0.7);
+  	top: 0;
+  	left: 0;
+  }
+  .caixaModal{
+  	width: 500px;
+  	height: 400px;
+  	background: #fff;
+  	border-radius: 10px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 200px;
+  }
+  .modalHeader{
+  	width: 480px;
+  	height: 50px;
+  	border-bottom: 1px solid #ddd;
+  	padding-left: 20px;
+  	padding-top: 10px;
+  	background: #0D47A1;
+  	border-radius: 10px 10px 0 0 ;
+  }
+  .modalHeader p{
+  	font-size: 30px;
+  	font-weight: bold;
+  	color: #fff;
+  	float: left;
+  }
+  #fechar{
+  	float: left;
+  	position: relative;
+  	border: 1px solid #ddd;
+  	border-radius: 15px;
+  	height: 50px;
+  	width: 50px;
+  	transition: 0.4s;
+  	left:  120px;
+  	bottom: 5px;
+  }
+  #fechar:hover{
+  	opacity:0.40;
+  	-moz-opacity: 0.40;
+  	filter: alpha(opacity=40);
+  	transition: 0.4s;
+  	cursor: pointer;
+  }
+
+  .modalContent{
+  	height: auto;
+  	width: auto;
+  	padding: 10px;
+  }
+  .frmLogin{
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  #rdoFis{
+    margin-left: 90px;
+  }
+  #rdoFis, #rdoJur{
+    height: 20px;
+    width: 20px;
+  }
+  #rdoJur{
+    margin-left: 20px;
+  }
+  .tpCliente{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF5722;
+  }
+  .txtDoLogin{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF5722;
+    margin-left: 70px;
+    padding-top: 10px;
+  }
+  .usu{
+    margin-top: 5px;
+  }
+  .inputLoginModal{
+    width: 250px;
+    height: 35px;
+    outline: none;
+    font-size: 18px;
+    margin-left: 70px;
+    font-weight: bold;
+    border: 1px solid #aaa;
+    transition: all 0.2s;
+    border-radius: 5px;
+  }
+  .inputLoginModal:hover{
+    border: 1px solid #ccc;
+  }
+  .btnEntrar{
+    margin-left: 70px;
+    width: 250px;
+    height: 40px;
+    background: #00695C;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    border:0;
+    box-shadow: 2px 2px 6px #000;
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  #txtOu{
+    font-size: 18px;
+    margin-left: 180px;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  #txtCadastarModal{
+    font-size: 18px;
+    margin-left: 140px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  #txtCadastarModal a{
+    color: #0D47A1;
+    text-decoration: underline;
+  }
+  /*formatação do conteudo*/
+  #conteudo{
+    width: auto;
+    height: 2000px;;
+    background: #000;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #titulo{
+    width: 100%;
+    height: 80px;
+  }
+  #txtSobre{
+    font-size: 60px;
+    text-align: center;
+    color: #0D47A1;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  #cima{
+    height: 1000px;
+    width: auto;
+  }
+  #baixo{
+    border: 1px solid;
+    height: 220px;
+    width: 1290px;
+    margin: 0 auto;
+  }
+
+  .titlepartedebaixo{
+    border: 1px solid #000;
+    margin: 0 0;
+  }
+  .esquerdo{
+    width: 700px;
+    height: 500px;
+    margin-left: 130px;
+    margin-top: 55px;
+  }
+  .imagem{
+    width: 700px;
+    height: 500px;
+  }
+
+  .direito{
+    height: auto;
+    width: 900px;
+    margin-left: 30px;
+    margin-top: 55px;
+    text-align: justify;
+  }
+  .title{
+    color: #0288D1;
+    font-size: 40px;
+  }
+  .visao{
+    margin-top: 10px;
+  }
+  .paragrafo{
+    color: #888;
+    font-size: 38px;
+  }
+  .DivMaisSobreNos{
+    width: 900px;
+    margin-left: 30px;
+    height: auto;
+    text-align: justify;
+  }
+  #TituloMaisSobre{
+    font-size: 40px;
+    color: #0288D1;
+    font-weight: bold;
+  }
+  #TextoSobre{
+    color: #888;
+    font-size: 38px;
+  }
+  #fraseEfeito{
+    font-size: 25px;
+    color: #07539a;
+    margin-left: 160px;
+    margin-top: 50px;
+  }
+  /****************Formatação do rodapé**********************/
+  #rodape{
+    height: auto;
+    width: 100%;
+    background:#0D47A1;
+    margin-top: -20px;
+  }
+  /*parte de cima do rodape*/
+  #rodapeCima{
+    width: 100%;
+    height: 380px;
+  }
+  #siga{
+    width: 400px;
+    height: 200px;
+    margin-left: 300px;
+    margin-top: 10px
+  }
+
+  #siga a{
+    color: #fff;
+  }
+
+  #txtSiga{
+    color: #fff;
+    font-size: 30px;
+    margin-left: 70px;
+    margin-top: 20px;
+  }
+  .rede{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  .face{
+    margin-left: 30px;
+  }
+  .rede:hover{
+    opacity: 0.90;
+    cursor: pointer;
+  }
+  #baixar{
+    width: 400px;
+    height: 180px;
+    margin-left: 300px;
+  }
+  #txtBaixe{
+    color: #fff;
+    font-size: 35px;
+    margin-left: 70px;
+  }
+  #gplay{
+    width: 230px;
+    height: 60px;
+    margin-top: 10px;
+    background: #000;
+    border-radius: 10px;
+    margin-left: 80px;
+  }
+  #gplay:hover{
+    cursor: pointer;
+  }
+
+
+  /*parte de baixo do rodape*/
+  #rodapeBaixo{
+    width: 100%;
+    height: 180px;
+    border-top: 1px solid #ccc;
+  }
+  #hrfooter{
+    display: none;
+  }
+  #pagamento{
+    width: 500px;
+    margin-left: 280px;
+    height: 95px;
+    clear: both;
+    padding-left: 0;
+  }
+  .frmPagamento{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  #copy{
+
+    height: 50px;
+  }
+  #txtCopy{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .DivNewsLetter{
+    width: 100%;
+    height: 300px;
+    background-color: #0277BD;
+    margin-top: 20px;
+  }
+
+  .RecebaNossasNovidades{
+    width: 100%;
+    font-size: 38px;
+    height: 80px;
+    text-align: center;
+    color: #f9bd00;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  .FormularioNewsLetter{
+    height: 120px;
+    width: auto;
+    margin-left: 250px;
+    margin-top: 20px;
+  }
+  .input{
+    width: 500px;
+    height: 50px;
+    border: 1px solid #ccc;
+    font-size: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  #btnOk{
+    height: 50px;
+    width: 200px;
+    margin-left: 150px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #a61722;
+    font-size: 30px;
+    background-color: #f9bd00;
+    cursor: pointer;
+    -webkit-animation: hue 60s infinite linear;
+  }
+
+  .textonewsletter{
+    color: #f9bd00;
+    font-size: 30px;
+  }
+}

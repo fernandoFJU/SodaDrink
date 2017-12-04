@@ -1,0 +1,103 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+section{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: -webkit-linear-gradient(right, #64B5F6, #BBDEFB);
+  background: linear-gradient(to right, #64B5F6 , #BBDEFB);
+  overflow: hidden;
+}
+.conteiner{
+  width: 700px;
+  height: 350px;
+  background: -webkit-linear-gradient(#eeeeee, #9E9E9E);
+  background: linear-gradient(#eeeeee , #9E9E9E);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  border-radius: 0 50px 0 50px;
+  box-shadow: 2px 2px 6px #000;
+}
+#login{
+  float: left;
+  border-right: 1px #fff groove;
+  width: 320px;
+  height: 300px;
+  padding-left: 30px;
+  padding-top: 50px;
+}
+#bemVindo{
+  font-size: 30px;
+  color: #0D47A1;
+}
+.texto{
+  color: #1976D2;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.usu{
+  margin-top: 20px;
+}
+.senha, .usu{
+  font-weight: bold;
+}
+.campo{
+  width: 300px;
+  height: 20px;
+  font-size: 16px;
+  outline: none;
+}
+.btnAcessar{
+  position: relative;
+  top: 20px;
+  height: 30px;
+  width: 80px;
+  background: #0D47A1;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  outline: none;
+  transition: 0.4s;
+}
+.btnAcessar:hover{
+  background: #1976D2;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.btnVoltar{
+  position: relative;
+  top: 20px;
+  height: 30px;
+  width: 80px;
+  background: #0D47A1;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  outline: none;
+  transition: 0.4s;
+}
+.btnVoltar:hover{
+  background: #1976D2;
+  transition: 0.4s;
+  cursor: pointer;
+}
+#logo{
+  width: 300px;
+  height: 100px;
+  float: left;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+.imgLogo{
+  width: 300px;
+  height: 100px;
+}
